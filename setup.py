@@ -6,7 +6,7 @@ setup(
     description='kill sge jobs with regex patterns',
     author='matthew parker',
     entry_points={
-        'console_scripts': ['qdre = qdre:qdre']
+        'console_scripts': ['qdre = qdre.qdre:qdre']
     },
     packages=['qdre'],
     install_requires=['pandas', 'beautifulsoup4']
