@@ -8,6 +8,6 @@ setup(
     entry_points={
         'console_scripts': ['qdre = qdre:qdre']
     },
-    packages=[],
+    packages=['qdre'],
     install_requires=['pandas', 'beautifulsoup4']
 )
